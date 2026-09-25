@@ -3326,20 +3326,20 @@ dependencies = [
 
 [[package]]
 name = "lemmy_api_common"
-version = "0.19.16"
+version = "0.19.20"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "44a90f9404d4f377cad644ddf117d4294bb9e603e3447a8722bfb65d94ca6e60"
+checksum = "939c14b8828807d9eabe08286ddb4f76748a8d6f616937b39b47006fb00656db"
 dependencies = [
  "anyhow",
  "chrono",
  "enum-map",
  "getrandom 0.2.17",
  "infer 0.16.0",
- "lemmy_db_schema 0.19.16",
+ "lemmy_db_schema 0.19.20",
  "lemmy_db_views",
  "lemmy_db_views_actor",
  "lemmy_db_views_moderator",
- "lemmy_utils 0.19.16",
+ "lemmy_utils 0.19.20",
  "mime_guess",
  "moka",
  "regex",
@@ -3440,7 +3440,7 @@ dependencies = [
  "actix-web",
  "chrono",
  "lemmy_api",
- "lemmy_api_common 0.19.16",
+ "lemmy_api_common 0.19.20",
  "lemmy_api_crud",
  "lemmy_api_utils",
  "lemmy_db_schema 1.0.0-beta.2",
@@ -3653,9 +3653,9 @@ dependencies = [
 
 [[package]]
 name = "lemmy_db_schema"
-version = "0.19.16"
+version = "0.19.20"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "40ab75cc48d2a2db143345c4faaec3ab9823b550b407971576cdaee9355da51c"
+checksum = "9f48c71b6ab652e7009270b4b559c08c7d814dc2bec8798722d02d6a8463e7d1"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -3714,24 +3714,24 @@ dependencies = [
 
 [[package]]
 name = "lemmy_db_views"
-version = "0.19.16"
+version = "0.19.20"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "df4de07624ba0abbdc3ad1f2603b0ed810b02697c84c14232ad5e46ccf65f4bf"
+checksum = "356d8f19bf94d282aedecb99cc6f42613ea30d4b00842756a312e85e83bd682d"
 dependencies = [
  "chrono",
- "lemmy_db_schema 0.19.16",
+ "lemmy_db_schema 0.19.20",
  "serde",
  "serde_with",
 ]
 
 [[package]]
 name = "lemmy_db_views_actor"
-version = "0.19.16"
+version = "0.19.20"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2b73cdb133d1fe12040d5c366735e539f78308071dd493d334650f7618a0bd74"
+checksum = "e896b001fd1984bbfd394189c41ca393a117c93c8fd3545423945b5f47d86761"
 dependencies = [
  "chrono",
- "lemmy_db_schema 0.19.16",
+ "lemmy_db_schema 0.19.20",
  "serde",
  "serde_with",
  "strum 0.26.3",
@@ -3901,11 +3901,11 @@ dependencies = [
 
 [[package]]
 name = "lemmy_db_views_moderator"
-version = "0.19.16"
+version = "0.19.20"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "230c15d98d67bd744c8357a3c6d12a53e74f9f96d679da6fea3a18278e51a0bc"
+checksum = "1680b648ddc87d45cbe9db59367c881f405bebda79323153cc9da6b1ee929186"
 dependencies = [
- "lemmy_db_schema 0.19.16",
+ "lemmy_db_schema 0.19.20",
  "serde",
  "serde_with",
 ]
@@ -4333,9 +4333,9 @@ dependencies = [
 
 [[package]]
 name = "lemmy_utils"
-version = "0.19.16"
+version = "0.19.20"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "360fda2d00df95fd4e9fbd48de3985ebda8b3de2f6a6e28f9a7196467e1bce70"
+checksum = "ea33e747c12c515653d7a2abca96eee870a8d3023595c03aeebf7672a869f62c"
 dependencies = [
  "cfg-if",
  "clearurls",
